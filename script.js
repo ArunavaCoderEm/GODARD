@@ -40,7 +40,7 @@ navToggleBtn.addEventListener("click", function () {
 
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
+  // elemToggleFunc(document.body);
 
 });
 
