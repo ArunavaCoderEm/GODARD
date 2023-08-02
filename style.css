@@ -592,6 +592,11 @@
     max-width: unset;
     width: 100%;
   }
+
+  #about figure img {
+    border-radius: 30px;
+  }
+  
   
   .about .btn-secondary { margin-bottom: 10px; }
   
