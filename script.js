@@ -53,31 +53,26 @@ const btn8 = document.getElementById("navsss")
 btn8.addEventListener("click",function(){
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 const btn9 = document.getElementById("navsss1")
 btn9.addEventListener("click",function(){
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 const btn10 = document.getElementById("navsss2")
 btn10.addEventListener("click",function(){
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 const btn11 = document.getElementById("navsss3")
 btn11.addEventListener("click",function(){
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 const btn12 = document.getElementById("navsss4")
 btn12.addEventListener("click",function(){
   elemToggleFunc(navToggleBtn);
   elemToggleFunc(navbar);
-  elemToggleFunc(document.body);
 });
 
 
