@@ -1048,7 +1048,7 @@
   
     .section-title { max-width: 380px; }
   
-  
+      .custom-cursor {display: none;}
   
     /**
      * PROJECT
@@ -1080,7 +1080,7 @@
     .container { max-width: 720px; }
   
     .section-title { max-width: 430px; }
-  
+    .custom-cursor {display: none;}
   
   
     /**
@@ -1148,7 +1148,7 @@
       --section-padding: 100px;
   
     }
-  
+      .custom-cursor {display: none;}
   
   
     /**
@@ -1436,7 +1436,7 @@
     .hero-social-list { left: -80px; }
   
     .scroll-down { right: -80px; }
-  
+      .custom-cursor {display: none;}
   
   
   
