@@ -160,15 +160,3 @@ window.addEventListener("mousemove", (event) => {
     cursor.style.top = `${y}px`;
 });
 
-
-// preloader 
-document.addEventListener("DOMContentLoaded", function() {
-  // Simulate a 3-second loading delay
-  setTimeout(function() {
-    // Hide the preloader after 3 seconds
-    document.querySelector(".preloader").classList.add("loaded");
-  }, 3000);
-});
-
-
-$('.preloader').show().delay(1000).hide(3000)
