@@ -217,6 +217,15 @@
   color: #3498db;
   animation: spinrev 1.5s linear infinite
 }
+#preloader-text1 {
+  position: absolute;
+  margin-right: 90px;
+  padding: 0 20px;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #db3d04;
+}
 
 @keyframes spinrev {
   0% {transform: rotate(0deg);}
