@@ -220,6 +220,7 @@
 #preloader-text1 {
   position: absolute;
   margin-right: 90px;
+  margin-bottom: 3px;
   padding: 0 20px;
   margin-top: 10px;
   font-size: 28px;
