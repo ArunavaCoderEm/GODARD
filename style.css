@@ -229,8 +229,12 @@
 }
 
 @keyframes spinrev {
-  0% {transform: rotate(0deg);}
-  100% {transform: rotate(-360deg);}
+  0% {transform: rotate(0deg); color:#3498db}
+  50% {
+    color: gold;
+    transform: rotate(180deg);
+  }
+  100% {transform: rotate(-360deg);color: #3498db;}
 }
 
 
