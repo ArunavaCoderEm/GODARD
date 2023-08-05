@@ -237,7 +237,18 @@
   100% {transform: rotate(-360deg);color: #3498db;}
 }
 
+/* quote */
 
+  #quote {
+    text-align: center;
+    color: var(--color-primary);
+    margin-top: 50px;
+  }
+
+  #quote span {
+    margin-top: 5px;
+    color: var(--qt-here);
+  }
   
   /*-----------------------------------*\
    * #RESET
