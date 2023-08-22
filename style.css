@@ -1044,8 +1044,11 @@
     color: var(--bg-primary);
   }
   
-  
-  
+
+/* change section color */
+  .section-title span {
+    color: var(--spannsec);
+  }
   
   
   /*-----------------------------------*\
@@ -1117,6 +1120,9 @@
    */
   
   @media (min-width: 550px) {
+    .section-title span {
+      color: var(--spannsec);
+    }
   
     /**
      * REUSED STYLE
@@ -1170,7 +1176,9 @@
   
     .stats-list { grid-template-columns: 1fr 1fr; }
   
-  
+    .section-title span {
+      color: var(--spannsec);
+    }
   
     /**
      * ABOUT
@@ -1501,6 +1509,9 @@
    */
   
   @media (min-width: 1200px) {
+    .section-title span {
+      color: var(--spannsec);
+    }
   
     /**
      * REUSED STYLE
