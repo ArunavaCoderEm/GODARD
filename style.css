@@ -61,10 +61,14 @@
   \*-----------------------------------*/
   
   body.dark_theme {
+    --color-q: white;
+    --cont: aqua;
+    --colorsecc : rgb(246, 94, 119);
+    --spannsec : yellow;
     --sc : aqua;
     --des-col: whitesmoke;
     --bg-primary: #202020;
-    --bg-secondary: hsl(0, 0%, 44%);
+    --bg-secondary: hsl(0, 1%, 28%);
     --color-primary: hsl(0, 0%, 100%);
     --color-secondary: hsl(0, 0%, 62%);
     --card-shadow: hsla(0, 0%, 0%, 0.4);
@@ -76,14 +80,18 @@
   }
   
   body.light_theme {
+    --color-q: rgb(21, 91, 254);
+    --cont : red;
+    --colorsecc: blue;
+    --spannsec : rgb(3, 156, 44);
     --sc : orangered;
     --des-col: #70deef;
     --btn-back: hsl(0, 1%, 19%);
     --btncol: orangered;
     --bg-primary: hsl(0, 0%, 90%);
-    --bg-secondary: hsl(0, 3%, 53%);
+    --bg-secondary: hsl(0, 0%, 38%);
     --color-primary: hsl(0, 0%, 12%);
-    --color-secondary: hsl(0, 0%, 37%);
+    --color-secondary: hsl(0, 0%, 27%);
     --card-shadow: hsla(0, 0%, 0%, 0.1);
     --input-bg: hsl(0, 0%, 93%);
     --qt-here : rgb(33, 33, 239);
@@ -191,7 +199,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(-459deg,#1d1212,#1d1212);
+  background: linear-gradient(-459deg,#020c64,#020c64);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,7 +253,7 @@
 
   #quote {
     text-align: center;
-    color: var(--color-primary);
+    color: var(--color-q);
     margin-top: 50px;
   }
 
@@ -398,7 +406,7 @@
   
   .section-subtitle {
     position: relative;
-    color: var(--color-secondary);
+    color: var(--colorsecc);
     text-transform: uppercase;
     padding-bottom: 5px;
     margin-bottom: 20px;
@@ -937,7 +945,9 @@
   
   .contact-item-icon ion-icon { --ionicon-stroke-width: 40px; }
   
-  .contact-item-title { margin-bottom: 10px; }
+  .contact-item-title { margin-bottom: 10px;
+    color: var(--cont);
+  }
   
   .contact-list-item .contact-info {
     color: var(--color-secondary);
@@ -1412,7 +1422,10 @@
     }
   
     .about-banner { margin-bottom: 0; }
-  
+
+    .section-title span {
+      color: var(--spannsec);
+    }
   
   
   
