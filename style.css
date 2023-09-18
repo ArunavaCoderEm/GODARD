@@ -340,31 +340,7 @@
 @keyframes animate{
   0%{transform: rotate(0deg);}
   100%{transform: rotate(360deg);}
-=======
-  width: 100%;
-  height: 100%;
-  background-color: #f0f0f0;
-  border-radius: 50%;
-  animation: pulse 2s infinite;
 }
-
-#batt {
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 9px;
-  animation: rotate 2s infinite;
-}
-
-.text22 {
-  font-weight: 700;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
-  font-size: 24px;
-  margin-top: 25px;
-  margin-left: 5px;
-  animation: glow 3s infinite;
-}
-
 /* Hide the preloader when it's not needed */
 .loaded .preloader {
   display: none;
