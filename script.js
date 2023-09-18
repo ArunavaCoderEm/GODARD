@@ -180,3 +180,13 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('preloader-container').style.display = 'none';
     }, 3000);
   });
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Simulate a delay of 3 seconds (3000 milliseconds)
+    setTimeout(function () {
+        // Add the "loaded" class to the body element to hide the preloader
+        document.body.classList.add("loaded");
+    }, 3000);
+  });
+  
