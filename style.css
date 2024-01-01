@@ -42,7 +42,7 @@ body.dark_theme {
     --bg-secondary: hsl(0, 1%, 28%);
     --color-primary: hsl(0, 0%, 100%);
     --color-secondary: hsl(0, 0%, 62%);
-    --card-shadow: hsla(0, 0%, 0%, 0.4);
+    --card-shadow: hsla(0, 1%, 42%, 0.4);
     --input-bg: hsl(0, 0%, 16%);
     --qt-here : rgb(89, 89, 235);
     --shadow-1: 10px 10px 40px var(--card-shadow);
@@ -61,10 +61,10 @@ body.light_theme {
     --btn-back: hsl(0, 1%, 19%);
     --btncol: orangered;
     --bg-primary: hsl(0, 0%, 90%);
-    --bg-secondary: hsl(0, 0%, 38%);
+    --bg-secondary: hsl(0, 0%, 57%);
     --color-primary: hsl(0, 0%, 12%);
     --color-secondary: hsl(0, 0%, 27%);
-    --card-shadow: hsla(0, 0%, 0%, 0.1);
+    --card-shadow: hsla(0, 0%, 6%, 0.826);
     --input-bg: hsl(0, 0%, 93%);
     --qt-here : rgb(33, 33, 239);
     --shadow-1: 10px 10px 40px var(--card-shadow);
@@ -499,6 +499,8 @@ body.light_theme {
   
   .header.active {
     padding-block: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background: var(--glass);
     box-shadow: var(--shadow-1);
   }
