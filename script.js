@@ -1,14 +1,18 @@
-/**
- * element toggle function
- */
+// Testing GODARD
+
+console.log("Welcome To GODARD's Website");
+
+// Preloader GODARD
+
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
+      document.getElementById('preloader').style.animation = 'splitAndMove 1.5s forwards';
+    }, 3000);
+});
 
 const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
-
-
-/**
- * header sticky & go to top
- */
+// header sticky & go to top
 
 const header = document.querySelector("[data-header]");
 const goTopBtn = document.querySelector("[data-go-top]");
@@ -25,11 +29,7 @@ window.addEventListener("scroll", function () {
 
 });
 
-
-
-/**
- * navbar toggle
- */
+// navbar toggle
 
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbar = document.querySelector("[data-navbar]");
@@ -41,9 +41,7 @@ navToggleBtn.addEventListener("click", function () {
 });
 
 
-/** 
- * Navs Click toggle
- * **/
+// Navs Click Toggle
 
 const btn8 = document.getElementById("navsss")
 btn8.addEventListener("click",function(){
@@ -71,10 +69,7 @@ btn12.addEventListener("click",function(){
   elemToggleFunc(navbar);
 });
 
-
-/**
- * skills toggle
- */
+// skills toggle
 
 const toggleBtnBox = document.querySelector("[data-toggle-box]");
 const toggleBtns = document.querySelectorAll("[data-toggle-btn]");
@@ -90,11 +85,7 @@ for (let i = 0; i < toggleBtns.length; i++) {
   });
 }
 
-
-
-/**
- * dark & light theme toggle
- */
+// dark & light theme toggle
 
 const themeToggleBtn = document.querySelector("[data-theme-btn]");
 
@@ -116,9 +107,7 @@ themeToggleBtn.addEventListener("click", function () {
 
 });
 
-/**
- * check & apply last time selected theme from localStorage
- */
+// check & apply last time selected theme from localStorage
 
 if (localStorage.getItem("theme") === "light_theme") {
   themeToggleBtn.classList.add("active");
@@ -130,9 +119,8 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.add("dark_theme");
 }
 
-
-
 // mouse move effect 
+
 const cursor = document
     .querySelector(".custom-cursor");
   
@@ -158,17 +146,6 @@ window.addEventListener("mousemove", (event) => {
     cursor.style.top = `${y}px`;
 });
 
-
-// preloader 
-document.addEventListener("DOMContentLoaded", function() {
-  // Simulate a 3-second loading delay
-  setTimeout(function() {
-    // Hide the preloader after 3 seconds
-    document.querySelector(".preloader").classList.add("loaded");
-  }, 3000);
-});
-
-
 // Add this code at the bottom of your HTML body
 
   // Wait for the page to load
@@ -187,4 +164,3 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.classList.add("loaded");
     }, 3000);
   });
-  
